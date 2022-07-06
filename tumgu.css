@@ -1,0 +1,74 @@
+#ellipse1{
+
+    width: 20em;
+    height: 20em;
+    right: 2em;
+    top: 2em;
+    background:  #00AEEF;
+    opacity: 0.6;
+    filter: blur(200px);
+    transform: matrix(-0.51, -0.81, 0.94, -0.47, 0, 0);
+    animation-delay: 2s;
+}
+
+#ellipse3{
+    
+    width: 20em;
+    height: 20em;
+    left: 2em;
+    top: 2em;
+    background: #DB3737;
+    opacity: 0.6;
+    filter: blur(200px);
+    transform: matrix(0.65, 0.76, -0.75, 0.66, 0, 0);
+    animation-delay: 10s;
+}
+
+#ellipse2
+{
+    left: 2em;
+    bottom: -10em;
+
+    width: 20em;
+    height: 20em;
+    background: #00AEEF;
+    opacity: 0.6;
+    filter: blur(200px);
+    transform: matrix(-0.92, 0.35, -0.41, -0.93, 0, 0);
+    animation-delay: 5s;
+}
+
+#ellipse4{
+    width: 20em;
+    height: 20em;
+    right: 2em;
+    bottom: -10em;
+    background: #DB3737;
+    opacity: 0.6;
+    filter: blur(200px);
+    transform: matrix(-0.91, 0.39, -0.43, -0.91, 0, 0);
+    animation-delay: 7s;
+}
+
+.ellipse {
+    /*z-index: -1 !important;*/
+    position: fixed;
+    background-attachment: fixed;
+    animation:fading 10s infinite;
+        }
+    @keyframes fading{
+    0%{opacity:0}
+    50%{opacity:1}
+    100%{opacity:0}
+}
+
+.navbar
+{
+    /* White tint with 0.5 opacity. */
+    background-color: rgba(255,255,255,0.5);
+    /* Notice how RGB of 255,255,255 is white. */
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
