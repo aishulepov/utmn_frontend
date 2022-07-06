@@ -1,7 +1,7 @@
 #ellipse1{
 
-    width: 20em;
-    height: 20em;
+    width: 25em;
+    height: 25em;
     right: 2em;
     top: 2em;
     background:  #00AEEF;
@@ -39,8 +39,8 @@
 }
 
 #ellipse4{
-    width: 20em;
-    height: 20em;
+    width: 25em;
+    height: 25em;
     right: 2em;
     bottom: -10em;
     background: #DB3737;
@@ -67,8 +67,20 @@
     /* White tint with 0.5 opacity. */
     background-color: rgba(255,255,255,0.5);
     /* Notice how RGB of 255,255,255 is white. */
+    font-size: 1.125em;
 }
 
 body{
     font-family: 'Montserrat', sans-serif;
+}
+
+.card{
+    background-color: rgba(245, 245, 245, 0.2);
+}
+
+.tumgu_logo{
+    width: 4em;
+    height: 4em;
+    margin-left: 2em;
+    margin-right: 2em;
 }
