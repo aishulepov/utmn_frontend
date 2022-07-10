@@ -30,33 +30,33 @@
     <div class="container-fluid sticky-top pl-0 pr-0">
       <nav class="navbar navbar-expand-lg sticky-top navbar-light border-bottom border-dark" id="navbarsExampleDefault">
         <!--Лого ТюмГу-->
-        <a class="navbar-brand  border-right border-dark text-center" href="#">
-          <img src="./static/svg/tumgu_logo.svg" class="tumgu_logo mw-100 img-fluid">
+        <a class="nav navbar-nav border-right border-dark text-center h-100 mr-0 justify-content-center" href="#" style="width:10%;min-width: 75px; min-width: 85px;">
+          <img src="./static/svg/tumgu_logo.svg" class="tumgu_logo">
         </a>
         
         <!--Пункты меню-->
         <div class="collapse navbar-collapse  justify-content-around" id="menu_navbar">
-          <div class="container-fluid">
+          <div class="container-fluid pl-0 pr-0">
           <ul class="navbar-nav justify-content-around">
             <li class="nav-item">
-              <a class="nav-link text-dark " href="#">Главная</a>
+              <a class="nav-link text-dark pl-0 pr-0" href="#">Главная</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link text-dark" href="#">О нас</a>
+              <a class="nav-link text-dark pl-0 pr-0" href="#">О нас</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link text-dark" href="#">Поиск</a>
+              <a class="nav-link text-dark pl-0 pr-0" href="#">Поиск</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link text-dark" href="#">Сервисы</a>
+              <a class="nav-link text-dark pl-0 pr-0" href="#">Сервисы</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link text-dark" href="#">Гайды</a>
+              <a class="nav-link text-dark pl-0 pr-0" href="#">Гайды</a>
             </li>
-            <li class="nav-item >
+            <li class="nav-item pl-0 pr-0">
               <a class="nav-link text-dark" href="#">Новости</a>
             </li>
-            <li class="nav-item dropdown ">
+            <li class="nav-item dropdown pl-0 pr-0">
               <a class="nav-link dropdown-toggle text-dark" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Актуальное
               </a>
@@ -71,7 +71,7 @@
         
         <!--Кнопки быстрого доступа-->
         <div class="nav navbar-nav right-novbar-width-disabled">
-          <div class="container-fluid">
+          <div class="container-fluid px-0">
               <div class="d-flex d-inline d-lg-block">
                 <div class=""><img class="border border-dark item" src="static/svg/special.svg" ></div>
                 <div class=""><img class="border border-dark item" src="static/svg/search.svg" ></div>
@@ -214,8 +214,9 @@
             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
               
               document.getElementById("navbarsExampleDefault").style.background = "#FFFFFF";
+              document.getElementById("menu_navbar").style.background = "#FFFFFF";
             } else {
-              
+              document.getElementById("menu_navbar").style.background = "none";
               document.getElementById("navbarsExampleDefault").style.background = "none";
             }
           }

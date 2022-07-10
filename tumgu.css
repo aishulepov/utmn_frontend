@@ -67,10 +67,10 @@
     /* White tint with 0.5 opacity. */
     background-color: rgba(255,255,255,0.0);
     /* Notice how RGB of 255,255,255 is white. */
-    font-size: 1.125em;
+    font-size: 1em;
     padding: 0;
     flex: 1;
-    height: 7em;
+    height: 5em;
      /*height: 4.5em; */
 }
 .nav-link{
@@ -86,6 +86,7 @@
 }
 body{
     font-family: 'Montserrat', sans-serif;
+    min-width: 350px;
 }
 
 .card{
@@ -93,10 +94,9 @@ body{
 }
 
 .tumgu_logo{
-    width: 4em;
-    height: 4em;
-    margin-left: 2em;
-    margin-right: 2em;
+    width: 80%;
+    height: 80%;
+    margin: 0.5em;
 }
 
 .navbar .nav-item:hover{
@@ -114,9 +114,9 @@ body{
 }
 
 .item{
-    width: 3em;
-    height: 2em;
-    padding: 0.1em;
+    width: 40px;
+    height: 28px;
+    margin-right: 0.4em;
 }
 
 .menu-items{
@@ -124,7 +124,7 @@ body{
 }
 
 .footer-height{
-    height: 7em;
+    height: 5em;
     font-size: 1.125em;
 }
 
