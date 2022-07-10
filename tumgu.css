@@ -127,3 +127,12 @@ body{
     height: 7em;
     font-size: 1.125em;
 }
+
+.footer-link{
+    color: black;
+}
+
+.footer-link:hover{
+    text-decoration: none;
+    color: black;
+}
