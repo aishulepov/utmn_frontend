@@ -70,10 +70,13 @@
     font-size: 1.125em;
     padding: 0;
     flex: 1;
-    height: 4.5em;
+    height: 7em;
+     /*height: 4.5em; */
 }
 .nav-link{
     padding: 0;
+    line-height: 1.55;
+    font-weight: 400;
 }
 
 .navbar-collapse{
@@ -101,3 +104,26 @@ body{
     text-underline-offset: 1px;
 }
 
+
+.margidropdown{
+ margin-top: 1.5em;
+}
+
+.right-novbar{
+    width: 12em;
+}
+
+.item{
+    width: 3em;
+    height: 2em;
+    padding: 0.1em;
+}
+
+.menu-items{
+    width: 10%;
+}
+
+.footer-height{
+    height: 7em;
+    font-size: 1.125em;
+}

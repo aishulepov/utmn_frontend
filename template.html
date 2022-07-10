@@ -24,19 +24,23 @@
     <img src="./static/svg/Ellipse 2 .png" class="ellipse" id="ellipse2">
     <img src="./static/svg/Ellipse 4.svg" class="ellipse" id="ellipse3">
     <img src="./static/svg/Ellipse 3.svg" class="ellipse" id="ellipse4">
+    
     <!--Меню-->
+    <div class="container-fluid sticky-top pl-0 pr-0">
       <nav class="navbar navbar-expand-sm sticky-top navbar-light border-bottom border-dark" id="navbarsExampleDefault">
-        <a class="navbar-brand" href="#">
+        <!--Лого ТюмГу-->
+        <a class="navbar-brand  border-right border-dark" href="#">
           <img src="./static/svg/tumgu_logo.svg" class="tumgu_logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse border-left border-dark">
-          <ul class="navbar-nav mr-auto">
+        
+        <!--Пункты меню-->
+        <div class="nav navbar-nav collapse navbar-collapse  justify-content-center">
+          <ul class="navbar-nav">
             <li class="nav-item pl-5">
-              <a class="nav-link text-dark font-weight-bold" href="#">Главная</a>
+              <a class="nav-link text-dark" href="#">Главная</a>
             </li>
             <li class="nav-item pl-5">
               <a class="nav-link text-dark" href="#">О нас</a>
@@ -57,84 +61,154 @@
               <a class="nav-link dropdown-toggle text-dark" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Актуальное
               </a>
-              <div class="dropdown-menu" aria-labelledby="dropdown01">
-                  <a class="dropdown-item" href="#">Первокурснику</a>
+              <div class="dropdown-menu dropdown-margin">
+                  <a class="dropdown-item " href="#">Первокурснику</a>
                   <a class="dropdown-item" href="#">Библионочь 2022</a>
               </div>
             </li>
           </ul>
-          <div>32</div>
+
+        </div>
+        <!--Кнопки быстрого доступа-->
+        <div class="nav navbar-nav right-novbar text-center ml-auto border-left border-dark">
+          <div class="row text-center mt-2">
+            <div class="col-md-6"><img class="border border-dark item" src="static/svg/special.svg" ></div>
+            <div class="col-md-6"><img class="border border-dark item" src="static/svg/search.svg"></div>
+          </div>
+          <div class="row text-center mt-2">
+            <div class="col-md-6"><img class="border border-dark item" src="static/svg/lk.svg"></div>
+            <div class="col-md-6"><div class="border border-dark item ">EN</div></div>
+          </div>
         </div>
       </nav>
-
-      <main role="main" class="container">
-        <div>
-
-          <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-        </div >
-        <div class="row">
-          <div class="col-lg">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt lobortis feugiat vivamus at augue eget arcu dictum. Maecenas accumsan lacus vel facilisis volutpat est velit. Semper risus in hendrerit gravida rutrum quisque non. Pharetra convallis posuere morbi leo urna. Malesuada pellentesque elit eget gravida cum. Nisl tincidunt eget nullam non nisi. Dolor sed viverra ipsum nunc aliquet bibendum enim. Eget mauris pharetra et ultrices neque ornare aenean. Placerat in egestas erat imperdiet. Nec sagittis aliquam malesuada bibendum arcu vitae elementum. Quam viverra orci sagittis eu volutpat odio facilisis mauris. Felis bibendum ut tristique et egestas. At varius vel pharetra vel turpis nunc eget lorem dolor. Vel risus commodo viverra maecenas. Sem nulla pharetra diam sit amet.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+    </div>
+    <div class="container d-flex h-100">
+      <div class="row justify-content-center align-self-center">
+       I'm vertically centered
+      </div>
+  </div>
+    <!--Контент-->
+    <main role="main" class="container" >
+      <div>
+        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+      </div >
+      <div class="row">
+        <div class="col-lg">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt lobortis feugiat vivamus at augue eget arcu dictum. Maecenas accumsan lacus vel facilisis volutpat est velit. Semper risus in hendrerit gravida rutrum quisque non. Pharetra convallis posuere morbi leo urna. Malesuada pellentesque elit eget gravida cum. Nisl tincidunt eget nullam non nisi. Dolor sed viverra ipsum nunc aliquet bibendum enim. Eget mauris pharetra et ultrices neque ornare aenean. Placerat in egestas erat imperdiet. Nec sagittis aliquam malesuada bibendum arcu vitae elementum. Quam viverra orci sagittis eu volutpat odio facilisis mauris. Felis bibendum ut tristique et egestas. At varius vel pharetra vel turpis nunc eget lorem dolor. Vel risus commodo viverra maecenas. Sem nulla pharetra diam sit amet.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">Sociis natoque penatibus et magnis. Egestas sed tempus urna et pharetra pharetra massa. Eros in cursus turpis massa tincidunt dui ut. Amet mattis vulputate enim nulla aliquet porttitor lacus luctus. Nam libero justo laoreet sit. Tincidunt ornare massa eget egestas purus viverra accumsan in. Lacus sed turpis tincidunt id aliquet risus. Interdum posuere lorem ipsum dolor sit amet. Quis hendrerit dolor magna eget est lorem ipsum dolor. Leo vel fringilla est ullamcorper eget nulla facilisi etiam. Amet purus gravida quis blandit turpis cursus. Ultrices eros in cursus turpis massa tincidunt. Mauris nunc congue nisi vitae suscipit.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+      </div>
+      <div class="row">
+        <div class="col-lg">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">Sociis natoque penatibus et magnis. Egestas sed tempus urna et pharetra pharetra massa. Eros in cursus turpis massa tincidunt dui ut. Amet mattis vulputate enim nulla aliquet porttitor lacus luctus. Nam libero justo laoreet sit. Tincidunt ornare massa eget egestas purus viverra accumsan in. Lacus sed turpis tincidunt id aliquet risus. Interdum posuere lorem ipsum dolor sit amet. Quis hendrerit dolor magna eget est lorem ipsum dolor. Leo vel fringilla est ullamcorper eget nulla facilisi etiam. Amet purus gravida quis blandit turpis cursus. Ultrices eros in cursus turpis massa tincidunt. Mauris nunc congue nisi vitae suscipit.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
+      </div>
 
-        <div class="row">
-          <div class="col-lg">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">Non curabitur gravida arcu ac tortor. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam. Sem et tortor consequat id porta. Ornare massa eget egestas purus viverra accumsan. Metus aliquam eleifend mi in. Turpis massa tincidunt dui ut ornare lectus sit amet est. Risus nullam eget felis eget. Elementum eu facilisis sed odio morbi. Massa eget egestas purus viverra accumsan. Fermentum odio eu feugiat pretium nibh ipsum consequat. Magna etiam tempor orci eu lobortis. Cursus sit amet dictum sit amet justo donec enim diam. Felis bibendum ut tristique et egestas quis ipsum suspendisse ultrices. Vulputate eu scelerisque felis imperdiet proin fermentum leo vel. Hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit. Ullamcorper a lacus vestibulum sed arcu non odio euismod. Tortor condimentum lacinia quis vel eros donec ac odio. Gravida arcu ac tortor dignissim convallis aenean. Vel fringilla est ullamcorper eget nulla facilisi. Lobortis elementum nibh tellus molestie.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+      <div class="row">
+        <div class="col-lg">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">Non curabitur gravida arcu ac tortor. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam. Sem et tortor consequat id porta. Ornare massa eget egestas purus viverra accumsan. Metus aliquam eleifend mi in. Turpis massa tincidunt dui ut ornare lectus sit amet est. Risus nullam eget felis eget. Elementum eu facilisis sed odio morbi. Massa eget egestas purus viverra accumsan. Fermentum odio eu feugiat pretium nibh ipsum consequat. Magna etiam tempor orci eu lobortis. Cursus sit amet dictum sit amet justo donec enim diam. Felis bibendum ut tristique et egestas quis ipsum suspendisse ultrices. Vulputate eu scelerisque felis imperdiet proin fermentum leo vel. Hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit. Ullamcorper a lacus vestibulum sed arcu non odio euismod. Tortor condimentum lacinia quis vel eros donec ac odio. Gravida arcu ac tortor dignissim convallis aenean. Vel fringilla est ullamcorper eget nulla facilisi. Lobortis elementum nibh tellus molestie.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
+      </div>
 
-        <div class="row">
-          <div class="col-lg">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">Ac tincidunt vitae semper quis lectus nulla at volutpat diam. Mattis rhoncus urna neque viverra justo nec ultrices. Cursus sit amet dictum sit amet justo. Lectus quam id leo in vitae turpis massa sed. Volutpat ac tincidunt vitae semper quis lectus nulla at volutpat. Maecenas accumsan lacus vel facilisis volutpat est velit egestas. Amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus. Cursus metus aliquam eleifend mi in nulla posuere. Neque vitae tempus quam pellentesque nec nam aliquam sem et. Enim facilisis gravida neque convallis. Auctor neque vitae tempus quam pellentesque. Vel turpis nunc eget lorem dolor sed viverra. Pellentesque dignissim enim sit amet venenatis urna cursus eget. Tortor at auctor urna nunc. Viverra tellus in hac habitasse platea dictumst vestibulum. Eleifend donec pretium vulputate sapien nec sagittis aliquam. Penatibus et magnis dis parturient montes.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+    </main>
+
+    <!--Футер-->
+    <div class="container-fluid">
+      <div class="row">
+          <!--Первый блок футера col-md-4 d-md-block d-none-->
+          <div class="col-md-4 col-6 col-md-4 d-none footer-height border-left border-top border-dark mt-auto mb-auto d-md-flex align-items-center">
+            <div class="container ">
+              <div class="d-flex flex-column">
+                  <div class="">
+                      <div class="d-inline">
+                          <img src="./static/svg/vk.svg" class="item">
+                      </div>
+                      <div class="d-inline">
+                          пн - чт 9:00 - 18:00, пт 9:00 - 16:45
+                      </div>
+                  </div>
+                  <div class="">
+                    <div class="d-inline">
+                        <img src="./static/svg/geo.svg" class="item">
+                    </div>
+                    <div class="d-inline">
+                      г. Тюмень, ул. Семакова, д 18
+                    </div>
+                  </div>
               </div>
             </div>
+          </div> 
+          
+          <!--Второй блок футера -->
+          <div class="col-md-4 col-6  footer-height border-left border-top border-dark">
+            <div class="row">
+              <div class="col-md-1 col-sm-1">
+                <img src="./static/svg/vk.svg" class="item">
+              </div>
+
+            </div>
+
           </div>
-        </div>
-      </main><!-- /.container -->
+
+          <!--Третий блок футера -->  
+          <div class="col-md-4 col-6 footer-height border-left border-top border-dark mt-auto mb-auto d-flex align-items-center">
+            <div class="container ">
+              <div class="d-flex flex-column">
+                  <div class="">
+                      <div class="d-inline">
+                          <img src="./static/svg/mail.svg" class="item">
+                      </div>
+                      <div class="d-inline">
+                          lib@utmn.ru
+                      </div>
+                  </div>
+                  <div class="">
+                    <div class="d-inline">
+                        <img src="./static/svg/contact.svg" class="item">
+                    </div>
+                    <div class="d-inline">
+                      <a href="href="tel:+73452456309">+73452456309</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>    
+    </div>
+ 
+      
     <!-- Bootstrap core JavaScript-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script>
           window.onscroll = function() {scrollFunction()};
- 
- function scrollFunction() {
-   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-     
-     document.getElementById("navbarsExampleDefault").style.background = "#FFFFFF";
-   } else {
-    
-     document.getElementById("navbarsExampleDefault").style.background = "none";
-   }
- }
+        
+          function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              
+              document.getElementById("navbarsExampleDefault").style.background = "#FFFFFF";
+            } else {
+              
+              document.getElementById("navbarsExampleDefault").style.background = "none";
+            }
+          }
     </script>
   </body>
 </html>
